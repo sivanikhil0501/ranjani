@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+
+    <title>Bootstrap form</title>
+</head>
+
+<body>
+
+    <form id="trigger" class="needs-validation" novalidate>
+        <!-- TEXT FIELD GROUPS -->
+        <div class="form-group">
+            <label for="first" class="form-label">First Name</label>
+            <input type="text" id="first" class="form-control" placeholder="Enter your first name" required>
+            <div class="invalid-feedback">
+                Please type in the First name.
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="last" class="form-label">Last Name</label>
+            <input type="text" id="last" class="form-control" placeholder="Enter your last name" required>
+
+            <div class="invalid-feedback">
+                Please enter the lastname.
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="gender" class="form-label">Gender</label>
+            <select class="form-control" id="gender" required>
+                <option>Select...</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+
+            <div class="invalid-feedback">
+                Please select the Gender.
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" class="form-control" placeholder="Enter Email" required>
+            <small class="form-text text-muted">Your Email will not be shared</small>
+
+            <div class="invalid-feedback">
+                Enter an valid Email address.
+            </div>
+        </div>
+        <div class="form-check">
+            <label for="choice">Course of choice :</label><br>
+            <label for="course1" class="form-check-label">Course 1</label>
+            <input type="checkbox" class="form-check-input" id="course1" name="course1" value="course1"> <br>
+            <label for="course2" class="form-check-label">Course 2</label>
+            <input type="checkbox" id="course2" class="form-check-input" name="course2" value="course2">
+
+            <div class="invalid-feedback">
+                Please choose a course.
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class=" btn btn-primary form-control">Submit</button>
+        </div>  
+    </form>
+    
+    <script src="app.js"></script>
+    <script src="app1.js"></script>
+</body>
+
+</html>
