@@ -1,0 +1,21 @@
+body{
+background-color: lemonchiffon;
+    
+}
+#btn1{
+background-color: mediumseagreen;
+border : black;
+border-radius: 10px;
+}
+.move{
+    background-color: grey;
+    color :oldlace;
+    padding : 10px;
+}
+.plus{
+    margin-bottom: 20px;
+}
+.rem{
+    background-color: cadetblue;
+    border-radius: 10px;
+}
