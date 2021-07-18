@@ -1,0 +1,9 @@
+table.planets {
+    border : 1px solid gray;
+    border-collapse: collapse;
+}
+table.planets th,table.planets td{
+    border : 1px solid grey;
+    padding : 10px;
+    text-align: center;
+}

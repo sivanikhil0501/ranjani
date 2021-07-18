@@ -1,0 +1,8 @@
+.sender-column{
+text-align: right;
+}
+.from{
+    text-align: right;
+    font-style : italic;
+    line-height : 0.5em;
+}
