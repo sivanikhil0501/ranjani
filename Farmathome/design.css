@@ -1,0 +1,159 @@
+body{
+    background-color:whitesmoke;
+    background-image: url("/images/images (2).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color :darkgreen;
+    background-color: greenyellow;
+    display: inline;
+    font-style: italic;
+}
+.navbar{
+    background-color: coral;
+    opacity: 0.8;
+    padding : 30px ;
+    
+}
+.navbar li {
+    display : inline-block;
+    text-decoration: none;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    color:darkgreen;
+    font-size: 20px;
+}
+a:hover{
+    background-color: darkgreen;
+    color :white;
+}
+.list-of-list{
+text-decoration: none;
+float: right;
+font-size: 20px;    
+background-color:  rgb(46, 8, 184);
+border:1px solid black;
+border-radius: 8px;
+color : white;
+padding :10px;
+margin-right: 20px;
+}
+.first{
+    display :inline;
+}
+.box{
+    display : flex;
+    flex-direction: column;
+    width : 15%;
+    position:fixed;
+}
+.box a{
+    text-decoration: none;
+    margin-left: 20px   ;
+    background-color: green;
+    color: greenyellow;
+    font-size: 20px;
+    padding: 10px;
+}
+.box a:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.Offers{
+    float: right;
+    background-color: rgba(200, 255, 0, 0.548);
+    width : 82%;
+    height: 300px;
+    font-size: 40px ;
+    text-align: center;
+}
+.Offers a{
+    color:indianred;
+    text-decoration: none;
+    
+}
+.Offers p::first-line{
+    color : brown;
+    font-style: normal;
+}
+.box2{
+    background-color: orange;
+    opacity: 0.7;
+    width:82%;
+    float: right;
+    margin-top:10px;
+}
+.lists{
+    border:1px solid black;
+    width: 400px;
+    height:350px;
+    margin: auto;
+}
+ .box2 li   {
+    list-style-type: none;
+
+    font-size: 20px;
+    }
+.box2 button {
+    background-color:navy;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+    
+}
+.box3{
+    background-color: rgba(29, 202, 115, 0.8);
+    width:82%;
+    float: right;
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    height: 600px;
+    overflow: scroll;
+}
+.box3 h2{
+    padding:10px;
+}
+.lists1{
+    border:1px solid black;
+    width: 400px;
+    height:350px;
+    margin: auto;
+}
+ .box3 li   {
+    list-style-type: none;
+    font-size: 20px;
+    }
+.box3 button {
+    background-color:navy;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+}
+.box4{
+    background-color: orangered;
+    width: 100%;
+    margin-top: 105%;
+    height: 100px;
+    margin-bottom: 0;
+}
+.box4 div{
+    
+    display: inline-block;
+    padding:20px;
+}
+.box4 a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    padding :10px;
+}
+.box4 a:hover{
+    color:white;
+}
